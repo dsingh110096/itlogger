@@ -1,0 +1,21 @@
+import React from 'react';
+
+const SearchBar = () => {
+  return (
+    <nav style={{ marginBottom: '30px' }} className='orange'>
+      <div className='nav-wrapper'>
+        <form autoComplete='off'>
+          <div className='input-field'>
+            <input id='search' type='search' style={{ cursor: 'pointer' }} />
+            <label className='label-icon' htmlFor='search' style={{ cursor: 'pointer' }}>
+              <i className='material-icons'>search</i>
+            </label>
+            <i className='material-icons'>close</i>
+          </div>
+        </form>
+      </div>
+    </nav>
+  );
+};
+
+export default SearchBar;
