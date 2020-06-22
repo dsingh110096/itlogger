@@ -6,8 +6,8 @@ const SearchBar = () => {
       <div className='nav-wrapper'>
         <form autoComplete='off'>
           <div className='input-field'>
-            <input id='search' type='search' style={{ cursor: 'pointer' }} />
-            <label className='label-icon' htmlFor='search' style={{ cursor: 'pointer' }}>
+            <input id='search' type='search' />
+            <label className='label-icon' htmlFor='search'>
               <i className='material-icons'>search</i>
             </label>
             <i className='material-icons'>close</i>
