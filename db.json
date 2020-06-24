@@ -1,25 +1,25 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Changes hard drive on workstation 005",
+      "id": 5,
+      "message": "system 007 repaird successfully",
       "attention": false,
-      "date": "03-02-2019",
-      "tech": "Dheerendra Singh"
+      "tech": "Ashutosh Kumar",
+      "date": "2020-06-24T14:53:03.116Z"
     },
     {
-      "id": 2,
-      "message": "Workstation 007 not posting",
+      "id": 6,
+      "message": "system 007 network card was repaired",
+      "attention": false,
+      "tech": "Dheerendra Singh",
+      "date": "2020-06-24T15:13:01.234Z"
+    },
+    {
+      "message": "System 080 Crashed ",
       "attention": true,
-      "date": "05-10-2019",
-      "tech": "Ashutosh Kumar"
-    },
-    {
-      "id": 3,
-      "message": "Changes memeory on workstation 050",
-      "attention": false,
-      "date": "08-23-2019",
-      "tech": "Deepak Pandey"
+      "tech": "John Doe",
+      "date": "2020-06-24T15:13:27.763Z",
+      "id": 7
     }
   ],
   "techs": [
