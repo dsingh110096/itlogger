@@ -1,47 +1,42 @@
 {
   "logs": [
     {
-      "id": 5,
-      "message": "system 007 repaird successfully",
-      "attention": false,
-      "tech": "Ashutosh Kumar",
-      "date": "2020-06-24T14:53:03.116Z"
+      "message": "System 080 Crashed ",
+      "attention": true,
+      "tech": "Dheerendra  SIngh",
+      "date": "2020-06-28T04:33:02.929Z",
+      "id": 1
     },
     {
-      "id": 6,
-      "message": "system 007 network card was repaired",
+      "message": "System 007 was repaired ",
       "attention": false,
-      "tech": "Dheerendra Singh",
-      "date": "2020-06-24T15:13:01.234Z"
+      "tech": "Jane Doe",
+      "date": "2020-06-28T04:33:11.509Z",
+      "id": 2
     },
     {
       "message": "System 080 Crashed ",
       "attention": true,
-      "tech": "John Doe",
-      "date": "2020-06-24T15:13:27.763Z",
-      "id": 7
+      "tech": "Ashutosh Kumar",
+      "date": "2020-06-28T04:33:22.605Z",
+      "id": 3
     }
   ],
   "techs": [
     {
-      "id": 1,
-      "firstname": "Dheerendra",
-      "lastname": "Singh"
+      "firstName": "Dheerendra ",
+      "lastName": "SIngh",
+      "id": 1
     },
     {
-      "id": 2,
-      "firstname": "Ashutosh",
-      "lastname": "Kumar"
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "id": 2
     },
     {
-      "id": 3,
-      "firstname": "Deepak",
-      "lastname": "Pandey"
-    },
-    {
-      "firstname": "John",
-      "lastname": "doe",
-      "id": 4
+      "firstName": "Ashutosh",
+      "lastName": "Kumar",
+      "id": 3
     }
   ]
 }

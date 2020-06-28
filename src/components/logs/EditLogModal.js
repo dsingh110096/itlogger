@@ -5,6 +5,7 @@ import PropTypes from 'prop-types';
 import { updateLog, clearCurrent } from '../../actions/logActions';
 
 import M from 'materialize-css/dist/js/materialize.min.js';
+import TechSelectOptions from '../techs/TechSelectOptions';
 
 const EditLogModal = ({ current, updateLog, clearCurrent }) => {
   const [message, setMessage] = useState('');
@@ -66,9 +67,7 @@ const EditLogModal = ({ current, updateLog, clearCurrent }) => {
               <option value='' disabled>
                 Select Technician
               </option>
-              <option value='John Doe'>John Doe</option>
-              <option value='Ashutosh Kumar'>Ashutosh Kumar</option>
-              <option value='Dheerendra Singh'>Dheerendra Singh</option>
+              <TechSelectOptions />
             </select>
           </div>
         </div>
